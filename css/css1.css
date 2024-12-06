@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header_auto{
+    margin-left: 44px;
+    margin-right: 44px;
+    font-size : 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    
+    text-decoration: none;
+    color :black
+}
+
+ul{
+    list-style: none;
+    font-size : 15px;
+}
+
+#menu{
+    text-align:center;
+}
+
+a{
+    padding: 15px;
+}
+
+#asidemenu{
+    text-align:right;
+    text-decoration:underline;
+}
+
+#gallary{
+    box-sizing : 600px 400px;
+    margin : 0px 300px 10px 10px;
+}
+
+#header_inner{
+    background-color: white;
+}
