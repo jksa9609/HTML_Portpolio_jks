@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 #header_auto{
     margin-left: 44px;
     margin-right: 44px;
@@ -34,11 +33,56 @@ a{
     text-decoration:underline;
 }
 
-#gallary{
+.gallary{
     box-sizing : 600px 400px;
     margin : 0px 300px 10px 10px;
 }
 
-#header_inner{
-    background-color: white;
+#imgblock1{
+    width:50%;
+}
+
+#imgblock2{
+    width:50%;
+}
+
+#last1{
+    width: 50%;
+    float: left;
+}
+
+#footer{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+#tweet{
+    text-align: left;
+    margin : 2em 1.5em 4em 1.5em;
+}
+
+#tweet_inner{
+    text-align: center;
+}
+
+#col_inner{
+    width : 403px;
+    height : 40px;
+    margin-left : 50px;
+    margin-bottom : 100px;
+    float: left;
+    text-align:left;
+
+}
+#col_location{
+    width : 403px;
+    height : 40px;
+    float: left;
+    text-align: left;
+}
+#col_address{
+    width : 403px;
+    height : 40px;
+    float: left;
+    text-align: left;
 }
