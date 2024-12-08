@@ -1,25 +1,36 @@
+/* 파일 이름 : css1.css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#prerender{
+
+
+
+/* ----------Try2.html에 적용할 CSS----------  */
+
+
+#prerender {
     margin-top: 200px;
 }
+
 #header {
-    position: fixed; /* 고정 위치 설정 */
-    top: 0; /* 상단에서의 위치 */
+    position: fixed;
+    /* 고정 위치 설정 */
+    top: 0;
+    /* 상단에서의 위치 */
     left: 10em;
-    color: white; /* 글자 색상 */
+    color: white;
+    /* 글자 색상 */
     width: 1977.5px;
-    height : 200px;
-    background-color : white;
+    height: 200px;
+    background-color: white;
 }
 
-#relative{
-    margin-left : 20em;
+#relative {
+    margin-left: 20em;
     margin-bottom: 5em;
-    padding : 0;
+    padding: 0;
     content: 0;
     float: center;
 }
@@ -33,7 +44,7 @@
 
 #headmenu {
     font-size: 33px;
-    margin-left : 10em;
+    margin-left: 10em;
     height: 20px;
 }
 
@@ -66,8 +77,8 @@ p3 {
 }
 
 #navi {
-    margin-right : 10em;
-    margin-top : 5em;
+    margin-right: 10em;
+    margin-top: 5em;
     margin-bottom: 10em;
     padding-right: 2em;
     padding-bottom: 10em;
@@ -94,7 +105,7 @@ ul {
 #asidemenu {
     text-align: right;
     cursor: pointer;
-    margin-bottom : 40px;
+    margin-bottom: 40px;
 }
 
 #gallary1 {
@@ -233,8 +244,8 @@ ul {
 #footer {
     position: relative;
     margin-bottom: 60px;
-    margin-left : 20em;
-    padding : 0;
+    margin-left: 20em;
+    padding: 0;
     content: 0;
     float: center;
 }
@@ -317,3 +328,4 @@ ul {
     filter: opacity(100%);
     cursor: pointer;
 }
+
