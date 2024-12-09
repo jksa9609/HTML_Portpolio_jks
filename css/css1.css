@@ -5,27 +5,31 @@
     box-sizing: border-box;
 }
 
-
-
 /* ----------Try2.html에 적용할 CSS----------  */
 
-
+/* ----- body ----- */
+/* ----- prerender ----- */
 #prerender {
     margin-top: 200px;
 }
 
+/* ----- wrap ----- */
+/* ----- wrap-margin ----- */
 #header {
     position: fixed;
     /* 고정 위치 설정 */
     top: 0;
     /* 상단에서의 위치 */
-    left: 10em;
+    left: 0;
     color: white;
     /* 글자 색상 */
     width: 1977.5px;
     height: 200px;
     background-color: white;
 }
+
+/* ----- change ----- */
+
 
 #relative {
     margin-left: 20em;
@@ -35,6 +39,10 @@
     float: center;
 }
 
+/* ----- header_inner ----- */
+/* ----- header ----- */
+/* ----- header_auto ----- */
+
 #header_auto {
     margin-left: 44px;
     margin-right: 44px;
@@ -42,29 +50,17 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* ----- headmenu ----- */
+
 #headmenu {
     font-size: 33px;
     margin-left: 10em;
     height: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
 
-p2 {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
 
-p3 {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
+/* ----- menu ----- */
 
 .navi {
     margin: 15px;
@@ -74,6 +70,27 @@ p3 {
 
 .navi:hover {
     color: #222222;
+}
+
+/* ----- navi ----- */
+
+ul {
+    list-style: none;
+    font-size: 15px;
+}
+
+#menu {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+/* ----- 중복+asidemenu ----- */
+
+#asidemenu {
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: 40px;
 }
 
 #navi {
@@ -91,22 +108,16 @@ p3 {
     text-decoration: underline;
 }
 
-ul {
-    list-style: none;
-    font-size: 15px;
-}
-
-#menu {
-    text-align: center;
+a {
+    text-decoration: none;
+    color: black;
     font-size: 20px;
-
 }
 
-#asidemenu {
-    text-align: right;
-    cursor: pointer;
-    margin-bottom: 40px;
-}
+
+
+
+/* ----- gallary1 -----  */
 
 #gallary1 {
     box-sizing: 600px 400px;
@@ -115,6 +126,10 @@ ul {
 }
 
 
+
+/* ----- gallary2 -----  */
+
+/* ----- ? -----  */
 #imgblock1 {
     width: 50%;
 }
@@ -122,6 +137,8 @@ ul {
 #imgblock2 {
     width: 50%;
 }
+/* ----- ? -----  */
+
 
 #last1 {
     float: left;
@@ -241,14 +258,8 @@ ul {
 }
 
 
-#footer {
-    position: relative;
-    margin-bottom: 60px;
-    margin-left: 20em;
-    padding: 0;
-    content: 0;
-    float: center;
-}
+/* ----- content -----  */
+
 
 #tweet {
     text-align: left;
@@ -259,6 +270,31 @@ ul {
     text-align: center;
     cursor: pointer;
     margin-right: 10%;
+}
+
+
+/* ----- footer -----  */
+
+#footer {
+    position: relative;
+    margin-bottom: 60px;
+    margin-left: 20em;
+    padding: 0;
+    content: 0;
+    float: center;
+}
+
+
+p2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+p3 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
 #col_inner {
