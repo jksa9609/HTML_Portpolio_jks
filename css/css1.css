@@ -8,21 +8,18 @@
 /* ----------Try2.html에 적용할 CSS----------  */
 
 /* ----- body ----- */
-/* ----- prerender ----- */
+/* ----- prerender -----
 #prerender {
-    margin-top: 200px;
-}
+    margin-left : 200px;
+} */
 
 /* ----- wrap ----- */
 /* ----- wrap-margin ----- */
 #header {
     position: fixed;
-    /* 고정 위치 설정 */
     top: 0;
-    /* 상단에서의 위치 */
     left: 0;
     color: white;
-    /* 글자 색상 */
     width: 1977.5px;
     height: 200px;
     background-color: white;
@@ -31,22 +28,22 @@
 /* ----- change ----- */
 
 
-#relative {
+/* #relative {
     margin-left: 20em;
     margin-bottom: 5em;
     padding: 0;
     content: 0;
     float: center;
-}
+} */
 
 /* ----- header_inner ----- */
 /* ----- header ----- */
 /* ----- header_auto ----- */
 
 #header_auto {
-    margin-left: 44px;
-    margin-right: 44px;
-    font-size: 15px;
+    /* margin-left: 44px; */
+    /* margin-right: 44px; */
+    /* font-size: 15px; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -54,8 +51,8 @@
 
 #headmenu {
     font-size: 33px;
-    margin-left: 10em;
-    height: 20px;
+    /* margin-left: 10em; */
+    /* height: 20px; */
 }
 
 
@@ -63,9 +60,9 @@
 /* ----- menu ----- */
 
 .navi {
-    margin: 15px;
+    /* margin: 15px; */
     color: #BBBBBB;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 .navi:hover {
@@ -74,33 +71,33 @@
 
 /* ----- navi ----- */
 
-ul {
-    list-style: none;
-    font-size: 15px;
+#menu {
+    /* text-align: center;
+    font-size: 20px; */
+
 }
 
-#menu {
-    text-align: center;
-    font-size: 20px;
-
+ul {
+    /* list-style: none;
+    font-size: 15px; */
 }
 
 /* ----- 중복+asidemenu ----- */
 
 #asidemenu {
-    text-align: right;
+    /* text-align: right; */
     cursor: pointer;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 #navi {
-    margin-right: 10em;
+    /* margin-right: 10em;
     margin-top: 5em;
     margin-bottom: 10em;
     padding-right: 2em;
-    padding-bottom: 10em;
+    padding-bottom: 10em; */
     color: #BBBBBB;
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 
 #navi:hover {
@@ -117,26 +114,17 @@ a {
 
 
 
-/* ----- gallary1 -----  */
-
-#gallary1 {
-    box-sizing: 600px 400px;
-    margin: 0px 300px 10px 10px;
-    cursor: pointer;
-}
-
-
 
 /* ----- gallary2 -----  */
 
 /* ----- ? -----  */
-#imgblock1 {
+/* #imgblock1 {
     width: 50%;
 }
 
 #imgblock2 {
     width: 50%;
-}
+} */
 /* ----- ? -----  */
 
 
@@ -167,7 +155,7 @@ a {
     position: relative;
 }
 
-#overlay2 {
+/* #overlay2 { need fix
     position: absolute;
     top: 37.5%;
     left: 75%;
@@ -180,7 +168,7 @@ a {
     opacity: 0;
     font-size: 1.5em;
     text-decoration: underline;
-}
+} */
 
 #overlay2_2 {
     position: absolute;
@@ -190,7 +178,7 @@ a {
     height: inherit;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     color: white;
     opacity: 0;
     font-size: 1.5em;
@@ -207,7 +195,7 @@ a {
     color: white;
     text-align: left;
     justify-content: center;
-    align-items: left;
+    /* align-items: left; */
     opacity: 0;
     font-size: 1.5em;
     text-decoration: underline;
@@ -215,7 +203,7 @@ a {
 }
 
 #overlay3 p {
-    text-align: left;
+    /* text-align: left; */
 }
 
 #last1_hover:hover img {
@@ -258,7 +246,7 @@ a {
 }
 
 
-/* ----- content -----  */
+/* ----- content ----- 
 
 
 #tweet {
@@ -270,56 +258,66 @@ a {
     text-align: center;
     cursor: pointer;
     margin-right: 10%;
-}
+} */
+
+
+/* ----- gallary1 ----- 
+
+#gallary1 {
+    box-sizing: 600px 400px;
+    margin: 0px 300px 10px 10px;
+    cursor: pointer;
+} */
+
 
 
 /* ----- footer -----  */
 
 #footer {
     position: relative;
-    margin-bottom: 60px;
-    margin-left: 20em;
+    /* margin-bottom: 60px;
+    margin-left: 20em; */
     padding: 0;
     content: 0;
-    float: center;
+    /* float: center; */
 }
 
 
 p2 {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 p3 {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 #col_inner {
     width: 403px;
     height: 40px;
-    margin-left: 50px;
+    /* margin-left: 50px;
     margin-bottom: 100px;
     float: left;
-    text-align: left;
+    text-align: left; */
 
 }
 
 #col_location {
     width: 403px;
     height: 40px;
-    float: left;
-    text-align: left;
+    /* float: left;
+    text-align: left; */
 }
 
 #col_address {
     width: 403px;
     height: 40px;
-    float: left;
+    /* float: left;
     text-align: left;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 #sns {
@@ -327,21 +325,21 @@ p3 {
 }
 
 #tweeter {
-    float: left;
+    /* float: left; */
     width: 38px;
     height: 40px;
     filter: opacity(50%);
 }
 
 #linkedin {
-    float: left;
+    /* float: left; */
     width: 38px;
     height: 40px;
     filter: opacity(50%);
 }
 
 #instagram {
-    float: left;
+    /* float: left; */
     width: 38px;
     height: 40px;
     filter: opacity(50%);
