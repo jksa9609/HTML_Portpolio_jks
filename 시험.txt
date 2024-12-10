@@ -10,8 +10,7 @@ Container
 	-photo2
 	-photo3
 	-photo4
-	-Latest tweet
-	-Latest tweet2
+
 	hr
 	footer
 	-box1
