@@ -12,8 +12,12 @@ Container
 	-photo4
 	-Latest tweet
 	-Latest tweet2
+	hr
 	footer
 	-box1
 	-box2
 	-box3
 	-box4
+	-icon1
+	-icon2
+	-icon3
