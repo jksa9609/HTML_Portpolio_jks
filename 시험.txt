@@ -1,0 +1,19 @@
+https://sociodesign.co.uk/
+
+Container
+	header
+	-SD/
+	-nav
+	-Subscribe
+	inner
+	-photo1
+	-photo2
+	-photo3
+	-photo4
+	-Latest tweet
+	-Latest tweet2
+	footer
+	-box1
+	-box2
+	-box3
+	-box4
